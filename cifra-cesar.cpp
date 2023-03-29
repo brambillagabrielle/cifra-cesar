@@ -28,11 +28,10 @@ int main() {
 
     }
 
-    cout<< "\n\n";
-    cout<< "Insira uma palavra para ser cifrada: ";
+    cout<< "\n\nInsira uma palavra para ser cifrada: ";
     cin>> entrada;
 
-    cout<< "Palavra cifrada: ";
+    cout<< "\nPalavra cifrada: ";
     int i = 0;
     while (entrada[i] != '\0') {
 
@@ -44,7 +43,6 @@ int main() {
         i++;
 
     }
-
     cout<< "\n";
 
 }
