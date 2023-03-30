@@ -36,9 +36,11 @@ int main() {
     while (entrada[i] != '\0') {
 
         saida[i] = toupper(entrada[i]) + chave;
+
         if (saida[i] > 90) {
             saida[i] = saida[i] - 26;
         }
+        
         cout<< saida[i];
         i++;
 
